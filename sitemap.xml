@@ -3,45 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://enterloop.co/about/</loc>
+    <loc>https://enterloop.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/categories/</loc>
+    <loc>https://enterloop.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/contact/contact/</loc>
+    <loc>https://enterloop.github.io/contact/contact/</loc>
   </url>
   
   <url>
-    <loc>http://enterloop.co/contact/</loc>
+    <loc>https://enterloop.github.io/contact/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/</loc>
+    <loc>https://enterloop.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/services/</loc>
+    <loc>https://enterloop.github.io/services/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/services/services/</loc>
+    <loc>https://enterloop.github.io/services/services/</loc>
   </url>
   
   <url>
-    <loc>http://enterloop.co/tags/</loc>
+    <loc>https://enterloop.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://enterloop.co/about/about/</loc>
+    <loc>https://enterloop.github.io/about/about/</loc>
   </url>
   
 </urlset>
