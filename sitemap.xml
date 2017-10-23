@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://enterloop.co/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/contact/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/services/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/services/services/</loc>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://enterloop.co/about/about/</loc>
+  </url>
+  
+</urlset>

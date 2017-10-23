@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+$colorBg = #3B56A6
+$colorFg = white
+$colorBgAlt = #a9bfff
+$colorFgAlt = white
+$bg1 = #3653a9
+$bg2 = #54279a
+$altbg =  #c9c8ff;
+
+body
+html
+    width 100%
+    height 100%
+    font-family "Roboto Condensed"
+
+h1
+h2
+h3
+h4
+h5
+h6
+    font-weight 400
+
+.b
+    font-weight 700
+
+.lead
+    font-size 18px
+    font-weight 400
+
+.intro-header
+    padding-top 50px
+    padding-bottom 50px
+    text-align center
+    color $colorFg
+    background: $colorBg
+
+.intro-message
+    position relative
+    padding-top 5%
+    padding-bottom 5%
+
+    >h1
+        margin 0
+        // text-shadow 2px 2px 3px $colorFg
+        font-size 5em
+
+    >h3
+        // text-shadow 2px 2px 3px $colorFg
+
+.intro-divider
+    margin-top: 50px
+    width 420px
+    border-top 1px solid $colorBgAlt
+
+@media (max-width:767px)
+    .intro-message
+        padding-bottom 15%
+
+        >h1
+            font-size 3em
+
+    ul
+        &.intro-social-buttons
+            >li
+                display block
+                margin-bottom 20px
+                padding 0
+
+                &:last-child
+                    margin-bottom 0
+
+        &.contact-social-buttons
+            >li
+                display block
+                margin-bottom 20px
+                padding 0
+
+                &:last-child
+                    margin-bottom 0
+
+    .intro-divider
+        width 100%
+
+    .contact
+        h2
+            margin 0
+            // text-shadow 2px 2px 3px $colorFg
+            font-size 3em
+
+.network-name
+    text-transform uppercase
+    font-size 14px
+    font-weight 400
+    letter-spacing 2px
+
+.content-section
+    h1
+        text-align: center
+        font-size: 3.2em
+        background: -webkit-linear-gradient($bg1, $bg2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+.content-section-a
+    padding 50px 0
+    background-color $colorBg
+
+.content-section-b
+    padding 50px 0
+    border-top 1px solid $colorFgAlt
+    border-bottom 1px solid $colorFgAlt
+
+.section-heading
+    margin-bottom 30px
+
+.section-heading-spacer
+    float left
+    width 200px
+    border-top 3px solid $colorFgAlt
+
+.contact
+    padding 100px 0
+    color $colorBg
+    background url(/img/contact-bg.jpg) no-repeat center center
+    background-size cover
+
+    h2
+        margin 0
+        font-size 3em
+
+    ul
+        margin-bottom 0
+
+.contact-social-buttons
+    float right
+    margin-top 0
+
+@media (max-width:1199px)
+    ul
+        &.contact-social-buttons
+            float left
+            margin-top 15px
+
+footer
+    padding 50px 0
+    background-color $colorBg
+    color: $colorFg
+    a, a:hover, a:active
+        color: $colorFg
+
+p
+    &.copyright
+        margin 15px 0 0
+        color: $colorFg
+
+.navbar-default 
+    background: -webkit-linear-gradient(left top, $bg1, $bg2) /* For Safari 5.1 to 6.0 */
+    //background-color $colorBg
+    border-color: transparent
+    a
+        color: $colorBgAlt !important
+    a:hover, a:active
+        background-color: transparent
+
+.navbar-default
+    a
+        font-size: 1.0em !important
+        font-weight: 700
+
+    .active
+        a
+            background-color: transparent !important
+            color: $colorFg !important
+    .navbar-collapse
+        border-color transparent
+    .navbar-toggle
+        border-width 0
+        .icon-bar
+            background-color white
+    .navbar-toggle:focus, .navbar-toggle:active
+        background-color: black
+
+.start-btn, .start-btn:hover, .start-btn:active, .start-btn:visited
+    font-size: 50px
+    color: #9aa6ca
+
+a.navbar-brand
+        margin-top -5px
+        color $colorFg !important
+        font-weight: 700    
+            
+
+.social, .social:active, .social:visited
+    
+    span
+        font-size: 10px !important
+    padding: 5px 10px
+    color: $colorBgAlt
+    background-color transparent !important
+    border-color $colorBgAlt
+    
+
+    &:hover
+        color: $colorFg
+        background-color: $colorBg
+
+.intro-message
+    h1
+        margin-top: -10px
+    .intro-sub
+        margin-top: 0px
+        
+.home-bg
+    background: -webkit-linear-gradient(left top, $bg1, $bg2) /* For Safari 5.1 to 6.0 */
+    // background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+    // background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    // background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+
+section
+    padding-top: 50px
+#intro
+    padding-top: 0 !important
+
+p, a
+    font-size: 18px
+
+.tech-list
+    margin-top: 30px
+    i
+        font-size: 120px
+        color: white
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    p
+        margin-top: -10px !important
+        // font-size: 1.0em
+    h3
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        font-weight: 700
+        margin-top: 25px
+
+.services
+    margin-top: 50px
+    margin-bottom: 50px
+    i
+        font-size: 120px !important
+        color: white
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    .service-list
+        margin-bottom: 30px
+    h3
+        font-weight: 700
+        color: white
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    p
+        margin: 0px
+
+.content-section
+    h1:after
+        content: '-';
+        height: 30px;
+        border-bottom: solid 1px #4241a3;
+        width: 55px !important;
+        position: sticky;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px
+
+.work-for
+    margin-top: 35px
+    i
+        font-size: 220px !important
+        color: white
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    p
+        margin: 15px 20px 0 20px
+    h3
+        margin-top: 0
+        font-weight: 700
+        color: white
+        background: -webkit-linear-gradient($bg1, $bg2)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        margin-bottom: 20px
+    .wfcell:first-child
+        border-right: solid 1px #eee
+.colory
+    color: $bg1 !important
+
+.altbg
+    margin: 50px 0 0 0
+    padding: 50px 0 30px 0
+    background-color $altbg !important
+
+#map
+    height: 400px
+    width: 100%
+
+#contact
+    padding-bottom: 0
+    margin-bottom: -10px
+
+.contact-detail
+    margin: 0 0 30px 0
+    font-size: 18px
+    text-align: center
+    .contact-social
+        margin-top: 30px
+        padding-top: 30px
+        border-top: solid 1px $colorBgAlt
+        text-align: center
+        a
+            display: inline-block
+            width: 50px
+        i
+            font-size: 20px
+        p
+            margin-bottom: 20px
+    i
+        display: block
+        margin-bottom: 20px
+        
+        color: $bg1
+        font-size: 30px
+    h2
+        margin-bottom: 20px
+        color: $bg1
